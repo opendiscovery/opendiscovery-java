@@ -7,7 +7,7 @@ This library is a Java platform API for OpenCoordination.
 This project is a work-in-progress design of interfaces for the OpenCoordination API. It does
 not have a test harness or any implementation, yet.
 
-Packages are not yet deployed to Maven Central, but work is in progress.
+Packages are not yet deployed to Maven Central.
 
 # Development
 
