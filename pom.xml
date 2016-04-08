@@ -83,6 +83,13 @@
 		<url>https://github.com/opendiscovery/opendiscovery-java/issues</url>
 	</issueManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>bintray-repo-opendiscovery-java</id>
+			<url>https://api.bintray.com/maven/opendiscovery/maven-repo/opendiscovery-java/;publish=1</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

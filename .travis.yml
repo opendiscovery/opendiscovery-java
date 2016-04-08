@@ -1,15 +1,16 @@
-# Run `travis lint` when changing this file to avoid breaking the build.
 sudo: false
-
 cache:
   directories:
   - $HOME/.m2
-
 language: java
-
 jdk:
-  - oraclejdk7
-
+- oraclejdk7
 script:
-  # use the maven wrapper as opposed to whatever version travis has
-  - ./mvnw install -nsu
+#TODO figure out PR's, branches, tags, etc...
+- ./mvnw deploy -nsu
+env:
+  global:
+  - GIT_NAME="Spencer Gibb"
+  - GIT_EMAIL=spencer@gibb.us
+  - CI_DEPLOY_USERNAME=spencergibb
+  - secure: VjjdX3tKOtVrrwqBkd0561csr7WtLU98KLIDhvZCn/b2wm2+DpTsW53hn4f0N8mnorTxTleN4SPswg3iLi3nFikk2uj9c/BRU8C7IH2PBhm3lLZmzSl4qgWaOIw+b1qhfkmmftXHTLDVesPO7Zke6q1PIDDBUYlOiIFdoF/LedbKL2jHux0nJxTk6vj8QvtpsOIHRRLGgtZNwo8cMFfq3V3CHhF2LP7P8jtF92sK5CSoYZRg9G9WYL7qSK+4N4Dol1sOTazpZf0iufYbdPL3IBVbOR9cW3JX0J41CAZCnpRjQMlD12he9vngEP4uWyuds9KJAdxdpmPeGrDf3YRC/do+LXQJ2Uiciw957DDuo8pc78iH3iUh5grScl/fw1RRw2X/9jqtirAhzm8nITGSy6vxSlZ27xEjGtwAOL6ppqzO4lzvb3QABxSNkQKBQJKiN/U8MlCGxItzuCmFVIfbIZbN7/mnc957zoIBfKq0coZYlpjt3XXeAWtuytHSOyo4TXfp74pDORzr0FVzAaPymfh2bnnreHt4w/K2EKLY7rRDWZ4eUyu7P3hYTQua29SGLxkr5hDznMIl35SDLZzr0WmjWYdsT2/3ljo4TauYMg9bHdqAEjkHQhbeqXiPd9yo9JCeK/GhlSoQAWtmeO23U0L/cC60RM6QnHP+o+X5/C8=
