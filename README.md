@@ -2,6 +2,8 @@
 
 This library is a Java platform API for OpenDiscovery.
 
+[![Build Status](https://travis-ci.org/opendiscovery/opendiscovery-java.svg?branch=master)](https://travis-ci.org/opendiscovery/opendiscovery-java)
+
 ## Status
 
 This project is a work-in-progress design of interfaces for the OpenDiscovery API. It does
