@@ -86,7 +86,7 @@
 	<distributionManagement>
 		<repository>
 			<id>bintray-repo-opendiscovery-java</id>
-			<url>https://api.bintray.com/maven/opendiscovery/maven-repo/opendiscovery-java/;publish=1</url>
+			<url>https://api.bintray.com/maven/opendiscovery/maven/opendiscovery-java/;publish=1</url>
 		</repository>
 	</distributionManagement>
 
