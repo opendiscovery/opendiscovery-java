@@ -1,10 +1,10 @@
-# OpenCoordination API for Java
+# OpenDiscovery API for Java
 
-This library is a Java platform API for OpenCoordination.
+This library is a Java platform API for OpenDiscovery.
 
 ## Status
 
-This project is a work-in-progress design of interfaces for the OpenCoordination API. It does
+This project is a work-in-progress design of interfaces for the OpenDiscovery API. It does
 not have a test harness or any implementation, yet.
 
 Packages are not yet deployed to Maven Central.

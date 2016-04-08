@@ -1,6 +1,6 @@
 <!--
 
-    Copyright 2016 The OpenCoordination Authors
+    Copyright 2016 The OpenDiscovery Authors
 
     Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
     in compliance with the License. You may obtain a copy of the License at
@@ -17,8 +17,8 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.opencoordination</groupId>
-	<artifactId>opencoordination</artifactId>
+	<groupId>io.opendiscovery</groupId>
+	<artifactId>opendiscovery</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -44,14 +44,14 @@
 		<maven-jar-plugin.version>2.6</maven-jar-plugin.version>
 	</properties>
 
-	<name>OpenCoordination</name>
-	<description>OpenCoordination API for Java</description>
-	<url>https://github.com/opencoordination/opencoordination-java</url>
+	<name>OpenDiscovery</name>
+	<description>OpenDiscovery API for Java</description>
+	<url>https://github.com/opendiscovery/opendiscovery-java</url>
 	<inceptionYear>2016</inceptionYear>
 
 	<organization>
-		<name>OpenCoordination</name>
-		<url>http://OpenCoordination.github.io/</url>
+		<name>OpenDiscovery</name>
+		<url>http://OpenDiscovery.github.io/</url>
 	</organization>
 
 	<licenses>
@@ -63,9 +63,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/opencoordination/opencoordination-java</url>
-		<connection>scm:git:https://github.com/opencoordination/opencoordination-java.git</connection>
-		<developerConnection>scm:git:https://github.com/opencoordination/opencoordination-java.git
+		<url>https://github.com/opendiscovery/opendiscovery-java</url>
+		<connection>scm:git:https://github.com/opendiscovery/opendiscovery-java.git</connection>
+		<developerConnection>scm:git:https://github.com/opendiscovery/opendiscovery-java.git
 		</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
@@ -80,14 +80,14 @@
 
 	<issueManagement>
 		<system>Github</system>
-		<url>https://github.com/opencoordination/opencoordination-java/issues</url>
+		<url>https://github.com/opendiscovery/opendiscovery-java/issues</url>
 	</issueManagement>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>opencoordination</artifactId>
+				<artifactId>opendiscovery</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
@@ -223,7 +223,7 @@
 						<version>${maven-javadoc-plugin.version}</version>
 						<configuration>
 							<failOnError>false</failOnError>
-							<excludePackageNames>opencoordination.internal,opencoordination.internal.*
+							<excludePackageNames>opendiscovery.internal,opendiscovery.internal.*
 							</excludePackageNames>
 						</configuration>
 						<executions>

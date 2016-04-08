@@ -1,5 +1,5 @@
 /**
- * Copyright 2016 The OpenCoordination Authors
+ * Copyright 2016 The OpenDiscovery Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  * in compliance with the License. You may obtain a copy of the License at
@@ -12,20 +12,32 @@
  * the License.
  */
 
-//TODO: move to separate modules?
-package io.opencoordination.loadbalancer;
+package io.opendiscovery;
 
-import io.opencoordination.Service;
+import java.util.Map;
 
 /**
- * Represents a client side load balancer
  * @author Spencer Gibb
  */
-public interface LoadBalancer {
+//ServiceInstance? Instance?
+public interface Service {
 	/**
-	 * Choose a ServiceInstance from the LoadBalancer for the specified service
-	 * @param name the service name to look up the LoadBalancer
-	 * @return a ServiceInstance that matches the serviceId
+	 * @return the Name as registered
 	 */
-	Service choose(String name);
+	String getName();
+
+	/**
+	 * @return the hostname of the registered ServiceInstance
+	 */
+	String getHostname();
+
+	/**
+	 * @return the port of the registered ServiceInstance
+	 */
+	int getPort();
+
+	/**
+	 * @return the key value pair metadata associated with the service instance
+	 */
+	Map<String, String> getMetadata();
 }

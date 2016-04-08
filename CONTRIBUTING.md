@@ -1,4 +1,4 @@
-# Contributing to OpenCoordination
+# Contributing to OpenDiscovery
 
 If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request (on a branch other than `master` or `gh-pages`).
 
@@ -15,7 +15,7 @@ If you are adding a new file it should have a header like below. This can be aut
 
 ```
 /**
- * Copyright 2016 The OpenCoordination Authors
+ * Copyright 2016 The OpenDiscovery Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  * in compliance with the License. You may obtain a copy of the License at
