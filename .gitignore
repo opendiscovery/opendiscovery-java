@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/intellij,eclipse,java,vim
+# Created by https://www.gitignore.io/api/intellij,eclipse,java,vim,maven
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -106,3 +106,14 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
