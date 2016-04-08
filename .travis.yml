@@ -6,11 +6,11 @@ language: java
 jdk:
 - oraclejdk7
 script:
-#TODO figure out PR's, branches, tags, etc...
-- ./mvnw -s .settings.xml deploy -nsu
+#- ./mvnw -s .settings.xml deploy -nsu
+- ./mvnw -s .settings.xml install -nsu
 env:
   global:
   - GIT_NAME="Spencer Gibb"
   - GIT_EMAIL=spencer@gibb.us
-  - CI_DEPLOY_USERNAME=spencergibb
   - secure: VjjdX3tKOtVrrwqBkd0561csr7WtLU98KLIDhvZCn/b2wm2+DpTsW53hn4f0N8mnorTxTleN4SPswg3iLi3nFikk2uj9c/BRU8C7IH2PBhm3lLZmzSl4qgWaOIw+b1qhfkmmftXHTLDVesPO7Zke6q1PIDDBUYlOiIFdoF/LedbKL2jHux0nJxTk6vj8QvtpsOIHRRLGgtZNwo8cMFfq3V3CHhF2LP7P8jtF92sK5CSoYZRg9G9WYL7qSK+4N4Dol1sOTazpZf0iufYbdPL3IBVbOR9cW3JX0J41CAZCnpRjQMlD12he9vngEP4uWyuds9KJAdxdpmPeGrDf3YRC/do+LXQJ2Uiciw957DDuo8pc78iH3iUh5grScl/fw1RRw2X/9jqtirAhzm8nITGSy6vxSlZ27xEjGtwAOL6ppqzO4lzvb3QABxSNkQKBQJKiN/U8MlCGxItzuCmFVIfbIZbN7/mnc957zoIBfKq0coZYlpjt3XXeAWtuytHSOyo4TXfp74pDORzr0FVzAaPymfh2bnnreHt4w/K2EKLY7rRDWZ4eUyu7P3hYTQua29SGLxkr5hDznMIl35SDLZzr0WmjWYdsT2/3ljo4TauYMg9bHdqAEjkHQhbeqXiPd9yo9JCeK/GhlSoQAWtmeO23U0L/cC60RM6QnHP+o+X5/C8=
+  - secure: i9Uh7d+v+LsDm9dzz99Cmj7f+Iv3YLumUOHmgTj3UIkg51So+GV+nJiR8Pq0egGNspVfmh0v5FLS7OhtH/mZAoVKrd3rIEkVaPSCxfdWphXA2f+9DX6SNOBoRUc/vrb9XiLeIZ1fiTa+G5aav+vsJcnvS4hYO5NRsc6g8QefTP1UNQgAEcHKPDhtYe+EISj/gVq1KTBuCAWkAJ7rCgWQcBfT8BGuM1e/RNeNycfyWFO/7vXK7M7lGcdggSbWY9YYDN20FcaHsvArNPoq23I53Wv4Hj917oeQF3+hPaK8vCq+qgNrYH4t9kgi2wdkKtYJk2TLSBPaT6lovhY+fUrVFNZkBGJEQuWUmgeCXhB7EhM7ZNFq0GGLMsKLWw8Y1DV+2OBYIeCSnXEOtzOaq12Nbp94BiLwdazMjCTXjQ4OLBTIFJiBCnNkiwiGfFIiRC+QXcKtapsgpv9z81h5fRzcazKGjAZjwXdePB5DsY6OtF4wbVkyPHYao6hXD/AyBqPQxnphvF3UvN11WTKGCL0vTh6KEJJmIu6YYMIuCq50QBYm8gzcbnlubsj7kbwMYgeqUUbLjchMXbkxv4jOUPHYqgaF+dSdY1b8ksggnc+00C4wvnYie68CaN8/OJHqDwbx2RRspioGrIitIbJjtB6wzvjB2NVaRjGyCDTAaWCsO5E=

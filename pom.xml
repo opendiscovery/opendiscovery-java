@@ -85,10 +85,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>bintray-opendiscovery-maven</id>
-			<name>opendiscovery-maven</name>
+			<id>bintray</id>
 			<url>https://api.bintray.com/maven/opendiscovery/maven/opendiscovery-java/;publish=1</url>
 		</repository>
+		<!-- https://artifactory.jfrog.org/confluence/display/RTF/Deploying+Snapshots+to+oss.jfrog.org -->
+		<snapshotRepository>
+			<id>jfrog-snapshots</id>
+			<url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<dependencyManagement>
