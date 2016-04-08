@@ -7,7 +7,7 @@ jdk:
 - oraclejdk7
 script:
 #TODO figure out PR's, branches, tags, etc...
-- ./mvnw deploy -nsu
+- ./mvnw -s .settings.xml deploy -nsu
 env:
   global:
   - GIT_NAME="Spencer Gibb"
