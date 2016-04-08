@@ -27,12 +27,14 @@ public interface Registry {
 	 * @param service
 	 */
 	//TODO: options parameter? <? extends Service>?
+	//TODO: throw exception if unable to register?
 	void register(Service service);
 
 	/**
 	 * Deregister a service instance
 	 * @param service
 	 */
+	//TODO: throw exception if unable to deregister?
 	void deregister(Service service);
 
 	/**
